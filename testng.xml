@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="5">
+	<listeners>
+		<listener class-name="in.airtel.generic.MyTestNGListener" />
+	</listeners>
+
+	<test thread-count="5" name="Prepaid Payment Tests">
+		<parameter name="browser" value="chrome" />
+		<parameter name="baseurl" value="https://www.airtel.in/s/selfcare" />
+		<classes>
+			<class name="in.airtel.scripts.payment.prepaid.APBPaymentTest" />
+		</classes>
+	</test>
+</suite>
