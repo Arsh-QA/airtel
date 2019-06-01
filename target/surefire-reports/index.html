@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\sony\workspace\airtel\testng.xml</span>
+                    <span>E:\Arsh\Job\Automation\git\airtel\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,17 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="in.airtel.scripts.PrepaidPaymentTest" hash-for-method="airtelPaymentBank">airtelPaymentBank</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="in.airtel.scripts.LoginTest" hash-for-method="validPostpaidLogin">validPostpaidLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="in.airtel.scripts.LoginTest" hash-for-method="validPrepaidLogin">validPrepaidLogin</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="in.airtel.scripts.payment.prepaid.APBPaymentTest" hash-for-method="insufficientBalance">insufficientBalance</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -130,42 +120,16 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">in.airtel.scripts.LoginTest</span>
+              <span class="class-name">in.airtel.scripts.payment.prepaid.APBPaymentTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validPostpaidLogin">
-                  </a> <!-- validPostpaidLogin -->
-                  <span class="method-name">validPostpaidLogin</span>
+                  <a name="insufficientBalance">
+                  </a> <!-- insufficientBalance -->
+                  <span class="method-name">insufficientBalance</span>
                   <em>
-(Login with Postpaid number)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validPrepaidLogin">
-                  </a> <!-- validPrepaidLogin -->
-                  <span class="method-name">validPrepaidLogin</span>
-                  <em>
-(Login with Prepaid number)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">in.airtel.scripts.PrepaidPaymentTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="airtelPaymentBank">
-                  </a> <!-- airtelPaymentBank -->
-                  <span class="method-name">airtelPaymentBank</span>
-                  <em>
-(Payment flow through Airtel Payments Bank)                  </em>
+(Insufficient Balance flow through Left Navigation Area)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -173,27 +137,23 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\sony\workspace\airtel\testng.xml</span>
+            <span class="header-content">E:\Arsh\Job\Automation\git\airtel\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;in.airtel.generic.MyTestNGListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Login Tests&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Prepaid Payment Tests&quot; parallel=&quot;tests&quot;&gt;
     &lt;parameter name=&quot;baseurl&quot; value=&quot;https://www.airtel.in/s/selfcare&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;packages&gt;
-      &lt;package name=&quot;in.airtel.scripts.*&quot;/&gt;
-    &lt;/packages&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;in.airtel.scripts.LoginTest&quot;/&gt;
-      &lt;class name=&quot;in.airtel.scripts.PrepaidPaymentTest&quot;/&gt;
+      &lt;class name=&quot;in.airtel.scripts.payment.prepaid.APBPaymentTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Login Tests --&gt;
+  &lt;/test&gt; &lt;!-- Prepaid Payment Tests --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -205,7 +165,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Login Tests (2 classes)</span>
+                <span class="test-name">Prepaid Payment Tests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -231,24 +191,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'airtelPaymentBank')
-data.setCell(0, 2, 'in.airtel.scripts.PrepaidPaymentTest')
-data.setCell(0, 3, 21014);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validPrepaidLogin')
-data.setCell(1, 2, 'in.airtel.scripts.LoginTest')
-data.setCell(1, 3, 10073);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validPostpaidLogin')
-data.setCell(2, 2, 'in.airtel.scripts.LoginTest')
-data.setCell(2, 3, 9951);
+data.setCell(0, 1, 'insufficientBalance')
+data.setCell(0, 2, 'in.airtel.scripts.payment.prepaid.APBPaymentTest')
+data.setCell(0, 3, 49309);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 41 seconds</span>
+              <span class="suite-total-time">Total running time: 49 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -260,39 +212,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">airtelPaymentBank</span>
+              <span class="reporter-method-name">insufficientBalance</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">airtelPaymentBank script execution starts</span>
+                <span class="reporter-method-output">insufficientBalance script execution starts</span>
                 <span class="reporter-method-output">Dashboard page is verified</span>
-                <span class="reporter-method-output">Airtel Payments Bank sufficient balance flow validated</span>
-                <span class="reporter-method-output">airtelPaymentBank script passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">validPostpaidLogin</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">validPostpaidLogin script execution starts</span>
-                <span class="reporter-method-output">Dashboard page is verified</span>
-                <span class="reporter-method-output">Dashboard for postpaid is validated</span>
-                <span class="reporter-method-output">validPostpaidLogin script passed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">validPrepaidLogin</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">validPrepaidLogin script execution starts</span>
-                <span class="reporter-method-output">Dashboard page is verified</span>
-                <span class="reporter-method-output">Dashboard for prepaid is validated</span>
-                <span class="reporter-method-output">validPrepaidLogin script passed</span>
+                <span class="reporter-method-output">The load money fail message validated</span>
+                <span class="reporter-method-output">insufficientBalance script passed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">in.airtel.scripts.payment.prepaid.APBPaymentTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">sufficientBalance</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -301,49 +242,27 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">in.airtel.scripts.LoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">preCondition(chrome, https://www.airtel.in/s/selfcare)</span>
+              <div class="chronological-class-name">in.airtel.scripts.payment.prepaid.APBPaymentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">preClass(chrome)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validPostpaidLogin</span>
-                <span class="method-start">8483 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postCondition</span>
-                <span class="method-start">18435 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">in.airtel.scripts.PrepaidPaymentTest</div> <!-- chronological-class-name -->
+              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">preCondition(chrome, https://www.airtel.in/s/selfcare)</span>
-                <span class="method-start">21332 ms</span>
+                <span class="method-name">preCondition(https://www.airtel.in/s/selfcare)</span>
+                <span class="method-start">7125 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">airtelPaymentBank</span>
-                <span class="method-start">27889 ms</span>
+                <span class="method-name">insufficientBalance</span>
+                <span class="method-start">11715 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">48903 ms</span>
+                <span class="method-start">61026 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">in.airtel.scripts.LoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">preCondition(chrome, https://www.airtel.in/s/selfcare)</span>
-                <span class="method-start">51636 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validPrepaidLogin</span>
-                <span class="method-start">59086 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postCondition</span>
-                <span class="method-start">69159 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">postClass</span>
+                <span class="method-start">63307 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

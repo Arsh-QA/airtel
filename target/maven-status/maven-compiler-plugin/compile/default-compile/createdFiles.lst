@@ -1,5 +1,6 @@
 in\airtel\generic\MyTestNGListener.class
 in\airtel\generic\SeleniumLib.class
+in\airtel\pageobjects\HDFCCardPage.class
 in\airtel\generic\ExcelUtilities.class
 in\airtel\generic\SeleniumLib$1.class
 in\airtel\generic\ExcelUtilities$1.class
@@ -8,4 +9,5 @@ in\airtel\pageobjects\PaymentOptionsPage.class
 in\airtel\generic\BaseLib.class
 in\airtel\pageobjects\LoginPage.class
 in\airtel\pageobjects\DashboardPage.class
+in\airtel\pageobjects\PrepaidRechargeFailedPage.class
 in\airtel\pageobjects\CheckPacksNServicesPage.class

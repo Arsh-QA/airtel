@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Suite Execution starts Thu Mar 21 09:22:47 IST 2019]]>
+      <![CDATA[Suite Execution starts Sat May 18 23:49:28 IST 2019]]>
     </line>
     <line>
       <![CDATA[Chrome browser launched]]>
@@ -11,64 +11,16 @@
       <![CDATA[https://www.airtel.in/s/selfcare URL navigated]]>
     </line>
     <line>
-      <![CDATA[validPostpaidLogin script execution starts]]>
+      <![CDATA[insufficientBalance script execution starts]]>
     </line>
     <line>
       <![CDATA[Dashboard page is verified]]>
     </line>
     <line>
-      <![CDATA[Dashboard for postpaid is validated]]>
+      <![CDATA[The load money fail message validated]]>
     </line>
     <line>
-      <![CDATA[validPostpaidLogin script passed]]>
-    </line>
-    <line>
-      <![CDATA[Browser closed]]>
-    </line>
-    <line>
-      <![CDATA[All sessions are closed]]>
-    </line>
-    <line>
-      <![CDATA[Chrome browser launched]]>
-    </line>
-    <line>
-      <![CDATA[https://www.airtel.in/s/selfcare URL navigated]]>
-    </line>
-    <line>
-      <![CDATA[airtelPaymentBank script execution starts]]>
-    </line>
-    <line>
-      <![CDATA[Dashboard page is verified]]>
-    </line>
-    <line>
-      <![CDATA[Airtel Payments Bank sufficient balance flow validated]]>
-    </line>
-    <line>
-      <![CDATA[airtelPaymentBank script passed]]>
-    </line>
-    <line>
-      <![CDATA[Browser closed]]>
-    </line>
-    <line>
-      <![CDATA[All sessions are closed]]>
-    </line>
-    <line>
-      <![CDATA[Chrome browser launched]]>
-    </line>
-    <line>
-      <![CDATA[https://www.airtel.in/s/selfcare URL navigated]]>
-    </line>
-    <line>
-      <![CDATA[validPrepaidLogin script execution starts]]>
-    </line>
-    <line>
-      <![CDATA[Dashboard page is verified]]>
-    </line>
-    <line>
-      <![CDATA[Dashboard for prepaid is validated]]>
-    </line>
-    <line>
-      <![CDATA[validPrepaidLogin script passed]]>
+      <![CDATA[insufficientBalance script passed]]>
     </line>
     <line>
       <![CDATA[Browser closed]]>
@@ -77,21 +29,16 @@
       <![CDATA[All sessions are closed]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="72111" started-at="2019-03-21T03:52:47Z" finished-at="2019-03-21T03:53:59Z">
+  <suite name="Suite" duration-ms="64167" started-at="2019-05-18T18:19:28Z" finished-at="2019-05-18T18:20:32Z">
     <groups>
     </groups>
-    <test name="Login Tests" duration-ms="72111" started-at="2019-03-21T03:52:47Z" finished-at="2019-03-21T03:53:59Z">
-      <class name="in.airtel.scripts.LoginTest">
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:in.airtel.scripts.LoginTest@531be3c5]" name="preCondition" is-config="true" duration-ms="8483" started-at="2019-03-21T03:52:47Z" finished-at="2019-03-21T03:52:55Z">
+    <test name="Prepaid Payment Tests" duration-ms="64167" started-at="2019-05-18T18:19:28Z" finished-at="2019-05-18T18:20:32Z">
+      <class name="in.airtel.scripts.payment.prepaid.APBPaymentTest">
+        <test-method status="PASS" signature="preClass(java.lang.String)[pri:0, instance:in.airtel.scripts.payment.prepaid.APBPaymentTest@3cbbc1e0]" name="preClass" is-config="true" duration-ms="7118" started-at="2019-05-18T18:19:28Z" finished-at="2019-05-18T18:19:35Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.airtel.in/s/selfcare]]>
               </value>
             </param>
           </params>
@@ -99,28 +46,43 @@
             <line>
               <![CDATA[Chrome browser launched]]>
             </line>
+          </reporter-output>
+        </test-method> <!-- preClass -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:in.airtel.scripts.payment.prepaid.APBPaymentTest@3cbbc1e0]" name="preCondition" is-config="true" duration-ms="4590" started-at="2019-05-18T18:19:35Z" finished-at="2019-05-18T18:19:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.airtel.in/s/selfcare]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
             <line>
               <![CDATA[https://www.airtel.in/s/selfcare URL navigated]]>
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="validPostpaidLogin()[pri:1, instance:in.airtel.scripts.LoginTest@531be3c5]" name="validPostpaidLogin" duration-ms="9951" started-at="2019-03-21T03:52:55Z" description="Login with Postpaid number" finished-at="2019-03-21T03:53:05Z">
+        <test-method status="PASS" signature="insufficientBalance()[pri:2, instance:in.airtel.scripts.payment.prepaid.APBPaymentTest@3cbbc1e0]" name="insufficientBalance" duration-ms="49309" started-at="2019-05-18T18:19:40Z" description="Insufficient Balance flow through Left Navigation Area" finished-at="2019-05-18T18:20:29Z">
           <reporter-output>
             <line>
-              <![CDATA[validPostpaidLogin script execution starts]]>
+              <![CDATA[insufficientBalance script execution starts]]>
             </line>
             <line>
               <![CDATA[Dashboard page is verified]]>
             </line>
             <line>
-              <![CDATA[Dashboard for postpaid is validated]]>
+              <![CDATA[The load money fail message validated]]>
             </line>
             <line>
-              <![CDATA[validPostpaidLogin script passed]]>
+              <![CDATA[insufficientBalance script passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- validPostpaidLogin -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:in.airtel.scripts.LoginTest@531be3c5]" name="postCondition" is-config="true" duration-ms="2896" started-at="2019-03-21T03:53:05Z" finished-at="2019-03-21T03:53:08Z">
+        </test-method> <!-- insufficientBalance -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:in.airtel.scripts.payment.prepaid.APBPaymentTest@3cbbc1e0]" name="postCondition" is-config="true" duration-ms="2281" started-at="2019-05-18T18:20:29Z" finished-at="2019-05-18T18:20:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="postClass()[pri:0, instance:in.airtel.scripts.payment.prepaid.APBPaymentTest@3cbbc1e0]" name="postClass" is-config="true" duration-ms="845" started-at="2019-05-18T18:20:32Z" finished-at="2019-05-18T18:20:32Z">
           <reporter-output>
             <line>
               <![CDATA[Browser closed]]>
@@ -129,106 +91,8 @@
               <![CDATA[All sessions are closed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:in.airtel.scripts.LoginTest@531be3c5]" name="preCondition" is-config="true" duration-ms="7450" started-at="2019-03-21T03:53:38Z" finished-at="2019-03-21T03:53:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.airtel.in/s/selfcare]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Chrome browser launched]]>
-            </line>
-            <line>
-              <![CDATA[https://www.airtel.in/s/selfcare URL navigated]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="validPrepaidLogin()[pri:0, instance:in.airtel.scripts.LoginTest@531be3c5]" name="validPrepaidLogin" duration-ms="10073" started-at="2019-03-21T03:53:46Z" description="Login with Prepaid number" depends-on-methods="in.airtel.scripts.LoginTest.validPostpaidLogin" finished-at="2019-03-21T03:53:56Z">
-          <reporter-output>
-            <line>
-              <![CDATA[validPrepaidLogin script execution starts]]>
-            </line>
-            <line>
-              <![CDATA[Dashboard page is verified]]>
-            </line>
-            <line>
-              <![CDATA[Dashboard for prepaid is validated]]>
-            </line>
-            <line>
-              <![CDATA[validPrepaidLogin script passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validPrepaidLogin -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:in.airtel.scripts.LoginTest@531be3c5]" name="postCondition" is-config="true" duration-ms="2915" started-at="2019-03-21T03:53:56Z" finished-at="2019-03-21T03:53:59Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Browser closed]]>
-            </line>
-            <line>
-              <![CDATA[All sessions are closed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- in.airtel.scripts.LoginTest -->
-      <class name="in.airtel.scripts.PrepaidPaymentTest">
-        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:in.airtel.scripts.PrepaidPaymentTest@52af6cff]" name="preCondition" is-config="true" duration-ms="6556" started-at="2019-03-21T03:53:08Z" finished-at="2019-03-21T03:53:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.airtel.in/s/selfcare]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Chrome browser launched]]>
-            </line>
-            <line>
-              <![CDATA[https://www.airtel.in/s/selfcare URL navigated]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="airtelPaymentBank()[pri:1, instance:in.airtel.scripts.PrepaidPaymentTest@52af6cff]" name="airtelPaymentBank" duration-ms="21014" started-at="2019-03-21T03:53:15Z" description="Payment flow through Airtel Payments Bank" finished-at="2019-03-21T03:53:36Z">
-          <reporter-output>
-            <line>
-              <![CDATA[airtelPaymentBank script execution starts]]>
-            </line>
-            <line>
-              <![CDATA[Dashboard page is verified]]>
-            </line>
-            <line>
-              <![CDATA[Airtel Payments Bank sufficient balance flow validated]]>
-            </line>
-            <line>
-              <![CDATA[airtelPaymentBank script passed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- airtelPaymentBank -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:in.airtel.scripts.PrepaidPaymentTest@52af6cff]" name="postCondition" is-config="true" duration-ms="2726" started-at="2019-03-21T03:53:36Z" finished-at="2019-03-21T03:53:38Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Browser closed]]>
-            </line>
-            <line>
-              <![CDATA[All sessions are closed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- in.airtel.scripts.PrepaidPaymentTest -->
-    </test> <!-- Login Tests -->
+        </test-method> <!-- postClass -->
+      </class> <!-- in.airtel.scripts.payment.prepaid.APBPaymentTest -->
+    </test> <!-- Prepaid Payment Tests -->
   </suite> <!-- Suite -->
 </testng-results>

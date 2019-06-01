@@ -1,2 +1,3 @@
-in\airtel\scripts\LoginTest.class
-in\airtel\scripts\PrepaidPaymentTest.class
+in\airtel\scripts\payment\prepaid\DebitCardPaymentTest.class
+in\airtel\sripts\digitalProfile\LoginTest.class
+in\airtel\scripts\payment\prepaid\APBPaymentTest.class
