@@ -1,3 +1,6 @@
-#auto-generated folder
-test-output/*
-target/*
+#Don't track contents of these folders
+target/
+screenshots/
+
+#Compiled Source#
+*.class
