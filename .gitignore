@@ -1,7 +1,7 @@
 #Don't track contents of these folders
-target/
-screenshots/
-test-output/
+target/*
+screenshots/*
+test-output/*
 
 #Compiled Source#
 *.class
