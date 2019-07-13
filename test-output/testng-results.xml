@@ -5,12 +5,12 @@
       <![CDATA[Chrome browser launched]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="5446" started-at="2019-07-13T19:58:37Z" finished-at="2019-07-13T19:58:42Z">
+  <suite name="Suite" duration-ms="5276" started-at="2019-07-13T20:00:56Z" finished-at="2019-07-13T20:01:01Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5446" started-at="2019-07-13T19:58:37Z" finished-at="2019-07-13T19:58:42Z">
+    <test name="Test" duration-ms="5276" started-at="2019-07-13T20:00:56Z" finished-at="2019-07-13T20:01:01Z">
       <class name="in.airtel.sripts.digitalProfile.LoginTest">
-        <test-method status="PASS" signature="preClass(java.lang.String)[pri:0, instance:in.airtel.sripts.digitalProfile.LoginTest@47c62251]" name="preClass" is-config="true" duration-ms="5329" started-at="2019-07-13T19:58:37Z" finished-at="2019-07-13T19:58:42Z">
+        <test-method status="PASS" signature="preClass(java.lang.String)[pri:0, instance:in.airtel.sripts.digitalProfile.LoginTest@47c62251]" name="preClass" is-config="true" duration-ms="5199" started-at="2019-07-13T20:00:56Z" finished-at="2019-07-13T20:01:01Z">
           <params>
             <param index="0">
               <value>
@@ -24,7 +24,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- preClass -->
-        <test-method status="FAIL" signature="preCondition(java.lang.String)[pri:0, instance:in.airtel.sripts.digitalProfile.LoginTest@47c62251]" name="preCondition" is-config="true" duration-ms="73" started-at="2019-07-13T19:58:42Z" finished-at="2019-07-13T19:58:42Z">
+        <test-method status="FAIL" signature="preCondition(java.lang.String)[pri:0, instance:in.airtel.sripts.digitalProfile.LoginTest@47c62251]" name="preCondition" is-config="true" duration-ms="35" started-at="2019-07-13T20:01:01Z" finished-at="2019-07-13T20:01:01Z">
           <params>
             <param index="0">
               <value>
@@ -41,8 +41,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SONY-VAIO', ip: '192.168.29.222', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\sony\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57848}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: ca7fd77cc2c4352e80c3383c93d352e6]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\sony\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57948}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 20588c067867f2d1316ca90a0cf0ecd8]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot navigate to invalid URL"}
@@ -52,8 +52,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SONY-VAIO', ip: '192.168.29.222', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\sony\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57848}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: ca7fd77cc2c4352e80c3383c93d352e6
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\sony\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57948}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 20588c067867f2d1316ca90a0cf0ecd8
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -103,7 +103,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="SKIP" signature="validPostpaidLogin()[pri:1, instance:in.airtel.sripts.digitalProfile.LoginTest@47c62251]" name="validPostpaidLogin" duration-ms="0" started-at="2019-07-13T19:58:42Z" description="Login with Postpaid number" finished-at="2019-07-13T19:58:42Z">
+        <test-method status="SKIP" signature="validPostpaidLogin()[pri:1, instance:in.airtel.sripts.digitalProfile.LoginTest@47c62251]" name="validPostpaidLogin" duration-ms="0" started-at="2019-07-13T20:01:01Z" description="Login with Postpaid number" finished-at="2019-07-13T20:01:01Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot navigate to invalid URL"}
@@ -113,8 +113,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SONY-VAIO', ip: '192.168.29.222', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\sony\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57848}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: ca7fd77cc2c4352e80c3383c93d352e6]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\sony\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57948}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 20588c067867f2d1316ca90a0cf0ecd8]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot navigate to invalid URL"}
@@ -124,8 +124,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'SONY-VAIO', ip: '192.168.29.222', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\sony\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57848}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: ca7fd77cc2c4352e80c3383c93d352e6
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\sony\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57948}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 20588c067867f2d1316ca90a0cf0ecd8
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -175,11 +175,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validPostpaidLogin -->
-        <test-method status="SKIP" signature="postCondition()[pri:0, instance:in.airtel.sripts.digitalProfile.LoginTest@47c62251]" name="postCondition" is-config="true" duration-ms="0" started-at="2019-07-13T19:58:42Z" finished-at="2019-07-13T19:58:42Z">
+        <test-method status="SKIP" signature="postCondition()[pri:0, instance:in.airtel.sripts.digitalProfile.LoginTest@47c62251]" name="postCondition" is-config="true" duration-ms="0" started-at="2019-07-13T20:01:01Z" finished-at="2019-07-13T20:01:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="SKIP" signature="postClass()[pri:0, instance:in.airtel.sripts.digitalProfile.LoginTest@47c62251]" name="postClass" is-config="true" duration-ms="0" started-at="2019-07-13T19:58:42Z" finished-at="2019-07-13T19:58:42Z">
+        <test-method status="SKIP" signature="postClass()[pri:0, instance:in.airtel.sripts.digitalProfile.LoginTest@47c62251]" name="postClass" is-config="true" duration-ms="0" started-at="2019-07-13T20:01:01Z" finished-at="2019-07-13T20:01:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postClass -->
