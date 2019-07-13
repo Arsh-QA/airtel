@@ -23,7 +23,7 @@ public class LoginTest extends BaseLib
 		dp.verifyPostpaidDashboard(driver);
 	}
 
-	@Test(description="Login with Prepaid number", enabled=true, dependsOnMethods={"validPostpaidLogin"})
+	@Test(description="Login with Prepaid number", enabled=false, dependsOnMethods={"validPostpaidLogin"})
 	public void validPrepaidLogin()
 	{
 		LoginPage lp = new LoginPage(driver);
